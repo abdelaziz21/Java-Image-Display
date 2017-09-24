@@ -9,7 +9,7 @@ public class ImageDisplay {
 		GraphicPanel panel = new GraphicPanel();
 		frame.getContentPane().add(panel);		//	to do this
 		frame.pack();
-		frame.setSize(300, 250);			// set the size of the frame
+		frame.setSize(350, 250);			// set the size of the frame
 		frame.setVisible(true);	
 	}
 
