@@ -13,6 +13,7 @@ import javax.swing.*;
 					im1 = background.getImage();
 						
 					super.paintComponent(gr);
-					gr.drawImage(im1,0,0, 300, 250, this);
+					//draws picture with picture's dimensions
+					gr.drawImage(im1,0,0, 298, 167, this);
 				}
 }
